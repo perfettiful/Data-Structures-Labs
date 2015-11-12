@@ -212,38 +212,57 @@ public class Heap<T> implements Serializable{
           // Always wrap FileReader in BufferedReader.
           BufferedReader bufferedReader =  new BufferedReader(fileReader);
      
+          ArrayList<String> buffered = new ArrayList<String>();
+          
+          
       while((line = bufferedReader.readLine()) != null){
       
-    	  ArrayList<String> buffered = new ArrayList<String>();
     	  buffered.add(0, line);
     	 // System.out.println(buffered); 
-    	  Heap<String> bufferedHeap = new Heap<String>(buffered);
-    	  
-    	  bufferedHeap.
-    	  //FileWriter writing to text file
-    	  FileWriter fileWriter = new FileWriter(fileName);
-      }
-      
-  	FileWriter writer = new FileWriter("stackText.txt");
-  	writer.write(stack.peek().toString());
-  	writer.write("\nThis is from the text file.");
-  	writer.close();
+    	 //Heap<String> bufferedHeap = new Heap<String>(buffered);
   	
-		  // Always close files.
-		  bufferedReader.close(); 
-      }
+      		}
+      
+      	Heap<String> bufferedHeap = new Heap<String>(buffered);
+	  	FileWriter writer = new FileWriter("Test-Heap-Inside&After-While " + fileName);
+	  	writer.write(bufferedHeap.toString());         //incorporate heapRebuild somewhere
+	  	writer.write("\nThis is from the text file " + fileName);
+	  	
+	  	writer.close();
+  		
+      	}	
       ///catches all exceptions
       catch(Exception ex){
     	  ex.printStackTrace();
     	  
-      }
+      		}
 	  
-  }
- 
-  
-  
+  	}
+
   public void serializeHeap(){
     try {
+    	
+    	FileReader fr = new FileReader("zzNumbersFile1.txt");
+    	BufferedReader reader = new BufferedReader(fr);
+    	
+    	String line = null;
+    	
+    	while ((line = reader.readLine()) != null) {
+    		System.out.println(line);
+    	}
+    	
+    	reader.close();
+    	
+    	System.out.println("Now, moving ontot he serialized stuff...");
+	    	
+	    FileInputStream fileStream = new FileInputStream("Heap.ser");
+	    ObjectInputStream stream = new ObjectInputStream(fileStream);
+	    Object readStream = stream.readObject();
+	    //awesomeStack = (StackReferenceBased) readStream;
+	    stream.close();
+	  //  System.out.println(awesomeStack.peek());
+	    	
+    	
 //      your code here to serialize a heap
     } catch (Exception e) {
       e.printStackTrace();
