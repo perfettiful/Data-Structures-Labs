@@ -1,0 +1,18 @@
+Today you will work with files as input and output. You will use the starter and files code provided in the zip file to complete this lab. Upon completion of this lab, you will be able to serialize a java Object for later reuse, and should understand something about dealing with strings and numbers as text files.
+
+Your goal is to write code for saving a heap as text, to write a function for serializing a heap, and to show that you've learned a bit about writing to text files by creating a method for writing the numbers from 1-3000 in a text file with one number on each line.
+
+Some steps you should probably take to accomplish this goal:
+Open and explore the provided code (including HeapTester).
+Try out the file reading and writing code so you get an idea how it works.
+Play with writing code in main (or in the interactions pane of Dr. Java) to generate and write numbers to a file, and to read those numbers from the file to create an ArrayList of Integers.
+
+You will be graded on the following:
+Your heap code in Heap.java includes methods for saving a heap as a text file (6 points)
+Your heap code in Heap.java includes methods for serializing a heap (6 points)
+You have successfully written code that writes Integers from an ArrayList to a file (6 points) 
+SimpleReader has been edited so that it includes code for reading and collecting Integers from a file (6 points)
+Write code in main of HeapTester.java that tests your code for writing the numbers from 1-3000 to a text file with one number on each line (just needs to demonstrate that the code exists and works - name the file zzThousand.txt) (4 points)
+Write comments at the bottom of your HeapTester code that explain something that you learned about using Java for working with files in this lab (2 points)
+
+Upload a zipped folder (named with your names) containing Heap.java, HeapTester.java, SimpleReader, SimpleWriter, and the original text files supplied with the lab. We will use these files to test if your generated text file is correct.
