@@ -1,12 +1,12 @@
-# Data-Structures-Labs
-Labs from UMM Data Structures Course
-
-[![ghit.me](https://ghit.me/badge.svg?repo=perfettiful/Data-Structures-Labs)](https://ghit.me/repo/perfettiful/Data-Structures-Labs)
 
 <snippet>
-  <content><![CDATA[# ${1:Project Name}
+  <content><![CDATA[
+  # ${1:Data-Structures-Labs}
+ 
+  [![ghit.me](https://ghit.me/badge.svg?repo=perfettiful/Data-Structures-Labs)]
+  (https://ghit.me/repo/perfettiful/Data-Structures-Labs)
   
-TODO: Write a project description
+Labs from UMM Data Structures Course
 
 ## Installation
 
@@ -35,8 +35,6 @@ TODO: Write credits
 ## License
 
 TODO: Write license
-
 ]]></content>
-
   <tabTrigger>readme</tabTrigger>
 </snippet>
