@@ -1,7 +1,6 @@
-
 <snippet>
   <content><![CDATA[
-  # ${1:Data-Structures-Labs}
+# ${1:Data-Structures-Labs}
  
   [![ghit.me](https://ghit.me/badge.svg?repo=perfettiful/Data-Structures-Labs)]
   (https://ghit.me/repo/perfettiful/Data-Structures-Labs)
