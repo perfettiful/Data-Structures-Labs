@@ -4,8 +4,7 @@ Labs from UMM Data Structures Course
 [![ghit.me](https://ghit.me/badge.svg?repo=perfettiful/Data-Structures-Labs)](https://ghit.me/repo/perfettiful/Data-Structures-Labs)
 
 <snippet>
-  <content>
-  <![CDATA[# ${1:Project Name}
+  <content><![CDATA[# ${1:Project Name}
   
 TODO: Write a project description
 
