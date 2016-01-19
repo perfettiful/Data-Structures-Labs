@@ -1,8 +1,7 @@
-
-#Data-Structures-Labs}
+#Data-Structures-Labs
  
   [![ghit.me](https://ghit.me/badge.svg?repo=perfettiful/Data-Structures-Labs)]
-  (https://ghit.me/repo/perfettiful/Data-Structures-Labs)
+  (https://ghit.perfettiful/repo/perfettiful/Data-Structures-Labs)
   
 Labs from UMM Data Structures Course
 
